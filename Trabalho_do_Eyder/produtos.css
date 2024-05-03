@@ -1,0 +1,135 @@
+body {
+    color:black;
+    background-color:wheat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    font-style:inherit;
+}
+
+fieldset {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:lightyellow;
+    border: 6px;
+    margin: 0%;
+    border-style:inset;
+    border-color: gold;
+    padding: 0%;
+    font-size: medium;
+}
+
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 0px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 180px;
+    height: 175px;
+}
+
+nav a:hover {
+    color:darkblue;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    border: solid 2px gold;
+    border-radius: 20px;
+    color:white;
+    background-color: lightyellow;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+
+    background-color:none;
+    color: white;
+    transform: scale(1.2)
+}
+
+.banner {
+    background-image: url('./img/5499732.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+  
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+  
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+  
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+  .button:hover {
+    background-color:dodgerblue;
+}
+
+.botao{
+    border: solid 2px gray;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+.buttomm {
+    width: 20px;
+    height: 20px;
+    border: 2px white;
+    margin-top: auto;
+    margin-top:0px ;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+.product-list li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.produto-list img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+  
+.produto-info {
+    text-align: center;
+}
